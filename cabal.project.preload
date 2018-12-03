@@ -1,0 +1,6 @@
+packages: .
+
+-- we override these packages with our local versions
+packages: cryptohash/ http-client-tls/ tls/
+
+constraints: preload-trick +openssl
